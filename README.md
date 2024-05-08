@@ -16,7 +16,7 @@ const childProcess = fork('childScript.js');
 
 ```
 
-*** Inter-Process Communication (IPC): *** Employ inter-process communication (IPC) mechanisms to exchange messages between parent and child 
+** Inter-Process Communication (IPC): ** Employ inter-process communication (IPC) mechanisms to exchange messages between parent and child 
 
 *processes. For instance, send messages from the parent to the child:*
 
@@ -36,7 +36,7 @@ process.on('message', (msg) => {
 
 ```
 
-*** Event Handling and Error Management: *** Implement event listeners to manage messages, errors, and process exits
+** Event Handling and Error Management: ** Implement event listeners to manage messages, errors, and process exits
 
 ``` js
 
@@ -69,6 +69,6 @@ for (let i = 0; i < numCPUs; i++) {
 
 ```
 
-*** Conclusion: ***
+** Conclusion: **
 
 *Child process forking in Node.js opens doors to robust, high-performance applications. By leveraging separate instances of processes, developers can create efficient, scalable solutions. Understanding the basics, managing communication, implementing best practices, and exploring advanced use cases are crucial steps toward mastering this feature.*
