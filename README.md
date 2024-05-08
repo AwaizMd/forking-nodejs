@@ -4,7 +4,7 @@ In the realm of operating systems, forking refers to a process of creating a cop
 
 In Node.js, forking enables the generation of separate instances of the Node.js process, each capable of running independently. By default, it creates a parent-child communication channel.
 
-*** Step-by-Step Guide: ***
+## Step-by-Step Guide: 
 
 ``` js
 // Import the Module:
