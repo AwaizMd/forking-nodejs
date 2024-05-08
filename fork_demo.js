@@ -16,7 +16,6 @@ app.get("/async-function", async(req, res) => {
   res.send({sum});
 });
 
-
 /*
 whenever a request comes to this route and in it we are spinning
 up the child process and that runs on separate thred and therefore 
