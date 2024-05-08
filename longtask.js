@@ -6,6 +6,7 @@ function longComputation() {
   return sum;
 }
 
+
 // process events
 process.on('message',(message)=>{
   if(message === "start"){
